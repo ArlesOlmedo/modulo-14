@@ -3,33 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Laboratorio 14</title>
+    <link rel="stylesheet" href="style14.css">
+
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a mi Pagina web</h1>
-    </header>
-    <main>
-        <section id="intro">
-            <h2>Control del mouse</h2>
-            <p>Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
-            <button id="changeTextButton">Haz clic para cambiar el texto</button>
-        </section>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">A cerca de</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
 
-        <section>
-            <h2>Informacion 1</h2>
-            <p>Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
-            
+            <button id="nav-toggle" aria-label="Toggle navigation"><img src="menu.png" width="60" height="70" ></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Bienvenidos  a nuestro sitio</h1>
+            <p>Este es el contenido 1 de mi pagina web INICIO</p>
         </section>
-        <section>
-            <h2>Informacion 2</h2>
-            <p>Esta es mi pagina web, con etiquetas, enlaces, menu, interaccion javaScript, encabezado y pie de pagina...</p>
-            
+        <section id="about">
+            <h1>Bienvenidos  a nuestro sitio</h1>
+            <p>Este es el contenido 2 de mi pagina web A CERCA DE</p>
+        </section>
+        <section id="services">
+            <h1>Bienvenidos  a nuestro sitio</h1>
+            <p>Este es el contenido 3 de mi pagina web SRVICIOS</p>
+        </section>
+        <section id="contact"></section>
+            <h1>Bienvenidos  a nuestro sitio</h1>
+            <p>Este es el contenido 4 de mi pagina web CONTACTO</p>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Pablo Carr</p>
-    </footer>
-    <script src="script.js"></script>
+    <script src="script14.js"></script>
 </body>
 </html>
